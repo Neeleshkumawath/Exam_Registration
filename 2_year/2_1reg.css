@@ -1,0 +1,68 @@
+body{
+    background-color: NavajoWhite;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-text{
+    color: rgb(88, 133, 178);
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.to-be-filled {
+    background-color: #f4f4f4;
+    padding: 50px;
+    border: 5px solid black; /* Added border property */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#registrationForm {
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+#name,#rollNo{
+    width:51%;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.centered-message{
+    text-align: center;
+    font-family:monospace ;
+    padding-top: 30px;
+}
+
+.error-message {
+    color: red;
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 60px;
+}

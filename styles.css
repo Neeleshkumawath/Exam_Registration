@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(248, 221, 188);
+    margin: 0;
+
+
+}
+
+.container{ 
+     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+.links{
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.links a{
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+
+}
+
+.links a:hover{
+    color: red;
+}
+
+.links a:visited {
+    color: purple;
+}
+.support-bottom{
+    align-self: flex-end;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.support-bottom a{
+    color: blue;
+    cursor: pointer;
+}

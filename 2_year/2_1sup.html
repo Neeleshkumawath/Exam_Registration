@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-1 SUPPLY</title>
+    <link rel="stylesheet" href="2_1sup.css">
+    <script src="2_1sup.js"></script>
+</head>
+<body>
+    
+    <h2 class="main-text">R18 2-1 Supply Exam Registration </h2>
+
+    <div class="to-be-filled">
+
+        <form id="registrationForm">
+            
+            <div>
+                <span class="error-message" id="nameError"></span>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name as per Your College Record" required>
+            </div>
+            <br>
+
+            <div>
+                <span class="error-message" id="rollNoError"></span>
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" name="rollNo" placeholder="Enter your Hall Ticket number" required>
+            </div>
+            <br>
+
+            <div>
+                <span class="error-message" id="mobileNoError"></span>
+                <label for="mobileNo">Mobile No:</label>
+                <input type="text" id="mobileNo" name="mobileNo" placeholder="Registered Mobile.no" required>
+            </div>
+            <br>
+
+            <div class="checkbox-container">
+                <label>Subjects:</label><br>
+                <div>
+                    <input type="checkbox" id="subject1" name="subject" value="dm">
+                    <label for="subject1">DM</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="subject2" name="subject" value="ds">
+                    <label for="subject2">DS</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subject3" name="subject" value="msf">
+                    <label for="subject3">MSF</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subject4" name="subject" value="coa">
+                    <label for="subject4">COA</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subject5" name="subject" value="pp">
+                    <label for="subject5">PP</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="subject6" name="subject" value="befa">
+                    <label for="subject5">BEFA</label>
+                </div>
+
+            </div>
+
+            <div class="button-container">
+                <button type="button" onclick="submitForm()">Submit</button>
+            </div>
+        </form>
+    
+        <div id="output"></div>
+
+    </div>
+    
+</body>
+</html>
